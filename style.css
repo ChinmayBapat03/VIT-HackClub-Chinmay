@@ -31,6 +31,18 @@ body {
 max-width: 100%;
 height: auto;
 }
+#intro .content {
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #fff;
+    z-index: 5;
+    color: whitesmoke;
+}
+#intro .content h2 {
+    padding: 10px 0 0;
+    border: none;
+}
 section {
     margin-bottom: 25px;
 }
