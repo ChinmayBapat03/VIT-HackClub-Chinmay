@@ -3,6 +3,6 @@ $(function () {
   var roles = ["Student", "VITian", "Sportsman", "Musician", "Scuba Diver"];
   var count = 0;
   setInterval(() => {
-    console.log(roles[count++ % roles.length]);   
+   $("#intro .content h2 span").text(roles[count++ % roles.length]);   
   },  1000);
 });
