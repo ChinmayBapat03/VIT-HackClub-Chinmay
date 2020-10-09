@@ -36,14 +36,18 @@ body {
     position: absolute;
     top: 25%;
     left: 25%;
+    transform: translate(-50%, -65%);
     overflow: hidden;
     border: 1px solid #fff;
     z-index: 5;
     color: #fff;
-    
+}
+#intro .content h1 {
+    margin: 25px 0;
+    font-size: 3.5em;
 }
 #intro .content h2 {
-    padding: 10px 0 0;
+    padding: 0;
     border: none;
 }
 section {
