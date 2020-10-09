@@ -36,7 +36,6 @@ body {
     position: absolute;
     top: 25%;
     left: 25%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     border: 1px solid #fff;
     z-index: 5;
