@@ -37,7 +37,7 @@ height: auto;
     overflow: hidden;
     border: 1px solid #fff;
     z-index: 5;
-    color: whitesmoke;
+    color: #fff;
 }
 #intro .content h2 {
     padding: 10px 0 0;
