@@ -54,6 +54,23 @@ body {
     font-size: 1.5em;
     font-weight: 300;
 }
+#intro .content .socials {
+    padding: 15px;
+
+}
+#intro .content .socials a{
+    color: #ccf;
+    display:inline-block;
+    font-size: 2.0em;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 1.25px;
+    border: 1px solid #ccf;
+    border-radius: 100%;
+    margin: 0 10px;
+}
 section {
     margin-bottom: 25px;
 }
