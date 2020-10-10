@@ -9,7 +9,7 @@ $(function () {
    $("#intro .content h2 span").fadeOut("slow", function() {
      $(this).text(roles[count++ % roles.length]);
      $(this).fadeIn("slow");   
-     //$('#skill_url').attr("href", urls[count++ % roles.length]);
+     $('#skill_url').attr("href", urls[url_count++ % roles.length]);
    });   
   },  1500);
 });
