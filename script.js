@@ -15,7 +15,10 @@ $(function () {
      $('#skill_url').attr("href", urls[url_count++ % roles.length]);
    });
    
-   $typeSpan.typistRemove(roles[count++].length).typistPause(2000).typistAdd(roles[count]);
+   $typeSpan
+   .typistRemove(roles[count++ % roles.length].length)
+   .typistPause(2000)
+   .typistAdd(roles[count % roles.length]);
   },  5000);
   $(".navbar").hide();
   $(window).scroll(function() {
