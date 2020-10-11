@@ -64,7 +64,7 @@ input {
     width: 45px;
     height: 45px;
     text-align: center;
-    line-height: 1.25px;
+    line-height: 1.15px;
     border: 1px solid #fff;
     border-radius: 100%;
     margin: 0 10px;
@@ -75,7 +75,7 @@ input {
 #intro .content .socials a:hover{
     color: #ccf;
     border: 1px solid #ccf;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 section {
     margin-bottom: 25px;
