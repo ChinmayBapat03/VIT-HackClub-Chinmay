@@ -16,9 +16,9 @@ $(function () {
    });
    
    $typeSpan
-    .typistRemove(roles[count++ % roles.length].length)
-    .typistPause(2000)
-    .typistAdd(roles[count % roles.length]);
+     .typistRemove(roles[count++ % roles.length].length)
+     .typistPause(2000)
+     .typistAdd(roles[count % roles.length]);
   }, 5000);
   $(".navbar").hide();
   $(window).scroll(function() {
