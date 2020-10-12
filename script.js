@@ -45,3 +45,15 @@ $(function () {
       }
     );
 });
+$(".go-down a").click(function (e) {
+  e.preventDefault();
+  var top = $($(this).attr("href")).position().top - 70;
+  $("html, body").animate(
+    {
+      scrollTop: top
+    },
+    1000
+  );
+});
+
+
