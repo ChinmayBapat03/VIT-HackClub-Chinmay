@@ -11,7 +11,7 @@ $(function () {
   setInterval
   (() => 
     {
-      count = 0;
+      //count = 0;
       //$("#intro .content h2 span").fadeOut("slow", function() 
         //{
           //$(this).text(roles[count++ % roles.length]);
