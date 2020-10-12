@@ -11,22 +11,21 @@ $(function () {
   setInterval
   (() => 
     {
-      count = 0;
-      $("#intro .content h2 span").fadeOut("slow", function() 
-        {
-          $(this).text(roles[count++ % roles.length]);
-          $(this).fadeIn("slow");   
-          $('#skill_url').attr("href", urls[url_count++ % roles.length]);
-        },1000);
-    }
-  );
-   /*
+      //count = 0;
+      //$("#intro .content h2 span").fadeOut("slow", function() 
+        //{
+          //$(this).text(roles[count++ % roles.length]);
+          //$(this).fadeIn("slow");   
+          //$('#skill_url').attr("href", urls[url_count++ % roles.length]);
+        //},1000);
+    //}
+  //);
+   
    $typeSpan
      .typistRemove(roles[count++ % roles.length].length)
      .typistPause(2000)
      .typistAdd(roles[count % roles.length]);
   }, 5000);
-  */
     $(".navbar").hide();
     $(window).scroll
     (
