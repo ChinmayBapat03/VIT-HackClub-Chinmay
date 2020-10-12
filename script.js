@@ -1,7 +1,7 @@
 //Wait till the DOM is ready.
 $(function () {
   var roles = ["Student", "VITian", "Sportsman", "Musician", "Scuba Diver"];
-  var urls = ["","","https://www.youtube.com/watch?v=s5YvChyzQn8","","https://www.youtube.com/watch?v=Ix5gE_llx-Q"];
+  var urls = ["https://chennai.vit.ac.in/about/","https://chennai.vit.ac.in/about/","https://www.youtube.com/watch?v=s5YvChyzQn8","","https://www.youtube.com/watch?v=Ix5gE_llx-Q"];
   var count = 0;
   var url_count = 0;
   var $typeSpan = $("#intro .content h2 span").typist({
