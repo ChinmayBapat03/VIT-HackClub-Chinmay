@@ -10,7 +10,7 @@ $(function () {
   
   setInterval
   (() => 
-    {
+  {
       if(count==roles.length) {count=0;url_count=0}
       //count = 0;
       //$("#intro .content h2 span").fadeOut("slow", function() 
