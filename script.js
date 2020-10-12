@@ -17,7 +17,9 @@ $(function () {
         //{
           //$(this).text(roles[count++ % roles.length]);
           //$(this).fadeIn("slow");   
-          $('#skill_url').attr("href", urls[url_count++ % roles.length]);
+          $('#skill_url').attr("href", urls[url_count % roles.length]);
+          $('#dynamic_url').val(urls[url_count % roles.length]);
+          url_count++;
         //},1000);
     //}
   //);
