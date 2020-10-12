@@ -11,6 +11,7 @@ $(function () {
   setInterval
   (() => 
     {
+      if(count==roles.length) {count=0;url_count=0}
       //count = 0;
       //$("#intro .content h2 span").fadeOut("slow", function() 
         //{
@@ -22,9 +23,10 @@ $(function () {
   //);
    
    $typeSpan
-     .typistRemove(roles[count++ % roles.length].length)
+     .typistRemove(roles[count % roles.length].length)
      .typistPause(2000)
      .typistAdd(roles[count % roles.length]);
+     count++;
   }, 5000);
     $(".navbar").hide();
     $(window).scroll
